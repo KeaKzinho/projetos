@@ -16,8 +16,13 @@ print(f"{'Jogo feito por KeaK, história feita por TLC e KeaK.' : ^180}")
 input(f"{'Aperte Enter para continuar.' : ^180}")
 system("cls")
 
+# Introdução do personagem principal --------------------------------------------------------------------------------------------------------------
+print("Seu nome é Kauan, onde seu pai se chama Wilian, líder de um clã chamado 'Ak', e sua mãe chamada Helena, atual esposa dele.")
+print("Sua infância toda foi ser o oposto das ideias de seu pai, você nunca chegou a ter um preconceito contra os ferais, onde, a vida toda você foi lecionado a fazer o contrário.")
+print("Você teve uma amiga de infância onde você não lembra o rosto nem o nome... Apenas que era chamado carinhosamente de 'Ka'.")
+input()
 
-# Introdução (Cutscene)
+# Introdução (Cutscene) ---------------------------------------------------------------------------------------------------------------------------
 print(f"{'Garras e Unhas.' : ^180}")
 print(f"{'Brasil, 1990.' : ^180}")
 print()
@@ -63,6 +68,30 @@ print("|-----------------------------------------------|")
 print("| Já participou de outros clãs?                 |")
 print("| Já.                                           |")
 print("|-----------------------------------------------|")
-print("| Se sim, quais?                                |")
+print("| Quais?                                        |")
 print("| Prefiro não dizer.                            |")
 print("|-----------------------------------------------|")
+
+input("Você analisa aquela ficha bastante incrédulo, pois além estar com a folha toda amassada, ainda ter informações não completas.")
+system("cls")
+
+while True:
+    print("Você então decide...")
+    print("[ 1 ] - Levantar o tom de voz.")
+    print("[ 2 ] - Manter a calma.")
+    opcao1 = int(input())
+    system("cls")
+
+    if opcao1 == 1:
+        input("Kauan - Mas que caralho de ficha é essa?! Alguns campos estão incompletos ou com respostas onde não posso aceitar.")
+        input("Ele não reage contra você, porém a forma como ele te enxerga muda drasticamente.")
+
+    elif opcao1 == 2:
+        input("Olha... A maioria das informações abaixo não está me agradando com a forma que eu esperava ser preenchido, por gentileza, poderia me explicar o por quê?")
+        input("Ele te olha de uma forma mais amigável, mas não muito perceptível.")
+
+    else:
+        print("Opção inválida, tente novamente.")
+        input("Aperte Enter para continuar...")
+        system("cls")
+        
