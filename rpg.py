@@ -7,24 +7,26 @@ system("cls")
 print("Olá meu amigo, antes da nossa aventura começar, qual o seu nome? ʕ•́ᴥ•̀ʔっ♡ ")
 nome = input()
 system("cls")
-print(f"{f'Olá {nome}, seja muito bem vindo(a) ao KeYa History!' : ^180}")
-print(f"{'Este é um RPG em produção, com primeiramente apenas uma história.' : ^180}")
-print(f"{'Futuramente irei adicionando cada vez mais, dependendo da minha força de vontade e determinação XD' : ^180}")
-print(f"{'Por mais é isso... Sem mais enrolação, vamos lá!' : ^180}")
-print(f"{'-' * 50 : ^180}")
-print(f"{'Jogo feito por KeaK, história feita por TLC e KeaK.' : ^180}")
-input(f"{'Aperte Enter para continuar.' : ^180}")
+print(f"{f'Olá {nome}, seja muito bem vindo(a) ao KeYa History!' : ^140}")
+print(f"{'Este é um RPG em produção, com primeiramente apenas uma história.' : ^140}")
+print(f"{'Futuramente irei adicionando cada vez mais, dependendo da minha força de vontade e determinação XD' : ^140}")
+print(f"{'Por mais é isso... Sem mais enrolação, vamos lá!' : ^140}")
+print(f"{'-' * 50 : ^140}")
+print(f"{'Jogo feito por KeaK, história feita por TLC e KeaK.' : ^140}")
+input(f"{'Aperte Enter para continuar.' : ^140}")
 system("cls")
 
 # Introdução do personagem principal --------------------------------------------------------------------------------------------------------------
 print("Seu nome é Kauan, onde seu pai se chama Wilian, líder de um clã chamado 'Ak', e sua mãe chamada Helena, atual esposa dele.")
-print("Sua infância toda foi ser o oposto das ideias de seu pai, você nunca chegou a ter um preconceito contra os ferais, onde, a vida toda você foi lecionado a fazer o contrário.")
+print("Sua infância toda foi ser o oposto das ideias de seu pai, você nunca chegou a ter um preconceito contra os ferais, onde, a vida toda você") 
+print("foi lecionado a fazer o contrário.")
 print("Você teve uma amiga de infância onde você não lembra o rosto nem o nome... Apenas que era chamado carinhosamente de 'Ka'.")
 input()
+system("cls")
 
 # Introdução (Cutscene) ---------------------------------------------------------------------------------------------------------------------------
-print(f"{'Garras e Unhas.' : ^180}")
-print(f"{'Brasil, 1990.' : ^180}")
+print(f"{'Garras e Unhas.' : ^140}")
+print(f"{'Brasil, 1990.' : ^140}")
 print()
 print("     A rivalidade entre humanos e ferais*, sempre foi algo crescente e normalizado entre a sociedade... Mesmo com semelhanças, os humanos só apontavam as diferenças de acordo com suas")
 print("crenças, os tão chamados de 'bestas do demônio', 'pulgentos', 'selvagens' e etc...\n")
@@ -39,7 +41,7 @@ input("Aperte Enter para continuar...")
 system("cls")
 
 # Transição de cenário -----------------------------------------------------------------------------------------------------------------------------
-print(f"{'NA ÁREA DE ALISTAMENTO.' : ^180}")
+print(f"{'NA ÁREA DE ALISTAMENTO.' : ^140}")
 input("Aperte Enter para continuar...")
 system("cls")
 
@@ -84,7 +86,7 @@ while True:
 
     if opcao1 == 1:
         input("Kauan - Mas que caralho de ficha é essa?! Alguns campos estão incompletos, claro que não vou aceitar!")
-        input("Ele não reage contra você, porém a forma como ele te enxerga muda drasticamente.")
+        input("Nada é feito contra você.")
 
     elif opcao1 == 2:
         input("Kauan - Olha... A maioria das informações abaixo não está me agradando com a forma que eu esperava ser preenchido, por gentileza, poderia me explicar o por quê?")
