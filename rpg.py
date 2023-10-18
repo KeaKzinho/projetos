@@ -44,11 +44,11 @@ input("Aperte Enter para continuar...")
 system("cls")
 
 # Começo do desenvolvimento -------------------------------------------------------------------------------------------------------------------------
-input("Kauan (você) — Próximo!")
+input("Kauan — Próximo!")
 input("[Chega um indivíduo de ali, de no mínimo 1,70 de altura com uma capa preta, que de certa forma era bem intimidador.]\n")
 input("Kauan — Documentos e ficha de inscrição por favor.\n")
 input("? — [Apenas pega o papel, que estava todo amassado, e entrega diretamente do comandante.]\n")
-input("Kauan — [Olhando indignado pela ousadia daquele ser, apenas respira profundamente antes de fazer qualquer ação.]\n")
+input("Você olha indignado pela ousadia daquele ser, apenas respira profundamente antes de fazer qualquer ação.]\n")
 input("(Olhando ficha)")
 system("cls")
 
@@ -87,7 +87,7 @@ while True:
         input("Ele não reage contra você, porém a forma como ele te enxerga muda drasticamente.")
 
     elif opcao1 == 2:
-        input("Olha... A maioria das informações abaixo não está me agradando com a forma que eu esperava ser preenchido, por gentileza, poderia me explicar o por quê?")
+        input("Kauan - Olha... A maioria das informações abaixo não está me agradando com a forma que eu esperava ser preenchido, por gentileza, poderia me explicar o por quê?")
         input("Ele te olha de uma forma mais amigável, mas não muito perceptível.")
 
     else:
