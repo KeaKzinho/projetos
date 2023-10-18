@@ -83,7 +83,7 @@ while True:
     system("cls")
 
     if opcao1 == 1:
-        input("Kauan - Mas que caralho de ficha é essa?! Alguns campos estão incompletos ou com respostas onde não posso aceitar.")
+        input("Kauan - Mas que caralho de ficha é essa?! Alguns campos estão incompletos ou com respostas onde não posso aceitar!")
         input("Ele não reage contra você, porém a forma como ele te enxerga muda drasticamente.")
 
     elif opcao1 == 2:
