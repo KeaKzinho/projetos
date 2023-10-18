@@ -1,4 +1,4 @@
-O# História de "Garras e Unhas."
+# História de "Garras e Unhas."
 
 from os import system
 
