@@ -1,0 +1,22 @@
+.inputs{
+      background-color: bisque;
+      padding: 12px 12px;
+      margin-top: 12px;
+}
+
+#numero1{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 16px;
+}
+
+#botão{
+      margin-top: 12px;
+      text-align: center;
+      font-style: italic;
+      font-family: 'Times New Roman', Times, serif;
+      color: brown;
+}
+
+body{
+      background-color: beige;
+}
