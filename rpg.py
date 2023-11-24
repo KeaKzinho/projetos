@@ -2,6 +2,11 @@
 
 from os import system
 
+sanidade = 70
+saciado = 66
+hidratado = 59
+descanso = 50
+
 # Tela de Boas-Vindas do usuário ----------------------------------------------------------------------------------------------------------------------
 system("cls")
 print("Olá meu amigo, antes da nossa aventura começar, qual o seu nome? ʕ•́ᴥ•̀ʔっ♡ ")
@@ -28,15 +33,16 @@ system("cls")
 print(f"{'Garras e Unhas.' : ^140}")
 print(f"{'Brasil, 1990.' : ^140}")
 print()
-print("     A rivalidade entre humanos e ferais*, sempre foi algo crescente e normalizado entre a sociedade... Mesmo com semelhanças, os humanos só apontavam as diferenças de acordo com suas")
-print("crenças, os tão chamados de 'bestas do demônio', 'pulgentos', 'selvagens' e etc...\n")
+print("     A rivalidade entre humanos e ferais*, sempre foi algo crescente e normalizado entre a sociedade... Mesmo com semelhanças, os humanos só apontavam as diferenças de")
+print("acordo com suas crenças, os tão chamados de 'bestas do demônio', 'pulgentos', 'selvagens' e etc...\n")
 print("-"*50)
 print("Curiosidade: 'Ferais' segue o mesmo raciocínio de Furrys, antropomórficos onde representa características físicas dependendo do animal.")
 input()
 system("cls")
 print("Então, um certo dia, no destemido 'Clã Ak', o dono havia passado a liderança para seu filho, Kauan, onde faz um novo alistamento... Com uma regra nova, permitido ferais.\n")
 input()
-print("Em toda a sua história, sempre teve um histórico famoso de ser totalmente contra a essas espécies, maltratando, matando-os, etc, gerando o motivo da grande confusão dessa liberação.")
+print("Em toda a sua história, sempre teve um histórico famoso de ser totalmente contra a essas espécies, maltratando, matando-os, etc, gerando o motivo da grande")
+print("confusão dessa liberação.\n")
 input("Aperte Enter para continuar...")
 system("cls")
 
@@ -79,7 +85,12 @@ system("cls")
 
 print(f"{'Você chegou em um novo momento, as escolhas!' : ^140}")
 print(f"{'Apenas digite o número que deseja fazer a opção.' : ^140}")
-print(f"{'Fique ciente que cada escolha que você possa fazer, irá interferir completamente o furuto.' : ^140}")
+print(f"{'Fique ciente que cada escolha que você possa fazer, irá interferir completamente o futuro.' : ^140}")
+input()
+system("cls")
+print(f"{'Aqui também terá sistema de sono, fome, e sede, ou seja, dependendo do seu nível de cada um, você não conseguirá executar determinada ação.' : ^140}")
+print(f"{'Em alguns momentos na história, você conseguirá ver o status do seu personagem, irá feita uma pausa para caso você queira saber '}\n\n")
+print(f"{'Observação: Na parte de escolhas não é possível fazer essa pesquisa.' : ^140}")
 input()
 system("cls")
 
@@ -94,12 +105,47 @@ while True:
         input("Nada é feito contra você.\n")
         input("Você apenas pega a ficha e deixa junto com as outras.\n")
         input("Kauan - Fique atento caso seja aprovado, você ficará sabendo do status da aprovação através da mesma forma que ficou sabendo do recrutamento.\n")
-        input("Luca apenas concorda, dá meia volta e vai embora.")
+        input("Luca apenas concorda, dá meia volta e vai embora.\n")
+        input("Você suspira bem fundo, tentando pensar o que fez para merecer isso.\n")
+        input("Kauan - Próximo!\n")
+        input("Longas horas depois de puro sofrimento, debaixo de tanto sol e ouvir diversas idiotices de pessoas diferentes...\n")
+        system("cls")
+        input("Kauan - Ufa... Finalmente eu terminei.\n")
+        input("Kauan - Estou exausto... Mas tem muita coisa pra fazer...-\n")
+        input("Kauan - Acho que eu vou...")
+        system("cls")
+
+        while True:
+            print("[ 1 ] - Ir dormir.")
+            print("[ 2 ] - Permanecer acordado e continuar a fazer as tarefas.")
+            opc_descanso = int(input())
+
+            if opc_descanso == 1:
+                input("Kauan - Sinceramente vou dormir mesmo... Estou exausto.\n")
+                print("Você vai direto no escritório e rapidamente adormece.\n")
+                input("Descanso +100")
+                descanso += 100
+
+                status = input("Deseja ver seus status atuais? Y/N\n")
+                if status.lower() == "y":
+                    if descanso > 100:
+                        descanso = 100
+                    if sanidade > 100:
+                        sanidade = 100
+                    if saciado > 100:
+                        saciado = 100
+                    if hidratado >100:
+                        hidratado = 100
+                    print(f"Sua sanidade é de {sanidade}")
+                    print(f"Sua saciedade é de {saciado}")
+                    print(f"Sua hidratação é de {hidratado}")
+                    print(f"Seu descanso é de {descanso}")
+
 
     elif opcao1 == 2:
         input("Nada é feito contra você.")
         input("Fica um silêncio completamente pertubador, porém você decide deixar a ficha junto com as outras.\n")
-        input("Luca te encara completamente confuso por ter tido o silêncio como reação, porem não te demonstra diretamente.\n")
+        input("Luca te encara completamente confuso por ter tido o silêncio como reação, porém não te demonstra diretamente.\n")
         input("Kauan - Apenas fique atento caso seja aprovado, você ficará sabendo do status da aprovação através da mesma forma que ficou sabendo do recrutamento.\n")
         input("Luca apenas concorda, dá meia volta e vai embora.\n")
 
