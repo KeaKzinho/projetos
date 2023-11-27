@@ -1,11 +1,23 @@
 # História de "Garras e Unhas."
-
+status = {
+        "sanidade":70,
+        "saciado":66,
+        "hidratado":59,
+        "descanso":50
+    }
+print (status["sanidade"])
 from os import system
+def limite_100(limite):
 
-sanidade = 70
-saciado = 66
-hidratado = 59
-descanso = 50
+    if status["sanidade"]>limite:
+        status["sanidade"]=100
+    if status["saciado"]>limite:
+        status["saciado"] = 100
+    if status["hidratado"]>limite:
+        status["hidratado"] = 100
+    if status["descanso"]>limite:
+        status["descanso"]=100
+
 
 # Tela de Boas-Vindas do usuário ----------------------------------------------------------------------------------------------------------------------
 system("cls")
@@ -124,22 +136,16 @@ while True:
                 input("Kauan - Sinceramente vou dormir mesmo... Estou exausto.\n")
                 print("Você vai direto no escritório e rapidamente adormece.\n")
                 input("Descanso +100")
-                descanso += 100
 
-                status = input("Deseja ver seus status atuais? Y/N\n")
-                if status.lower() == "y":
-                    if descanso > 100:
-                        descanso = 100
-                    if sanidade > 100:
-                        sanidade = 100
-                    if saciado > 100:
-                        saciado = 100
-                    if hidratado >100:
-                        hidratado = 100
-                    print(f"Sua sanidade é de {sanidade}")
-                    print(f"Sua saciedade é de {saciado}")
-                    print(f"Sua hidratação é de {hidratado}")
-                    print(f"Seu descanso é de {descanso}")
+
+                pergunta = input("Deseja ver seus status atuais? Y/N\n")
+                if pergunta.lower() == "y":
+                    status["descanso"] = status["descanso"] + 100
+                    limite_100(100)
+                    print(f"Sua sanidade é de {status['sanidade']}")
+                    print(f"Sua saciedade é de {status["saciado"]}")
+                    print(f"Sua hidratação é de {status["hidratado"]}")
+                    print(f"Seu descanso é de {status["descanso"]}")
 
 
     elif opcao1 == 2:
